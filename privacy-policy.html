@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - CyberBlock Ad Eliminator</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;600;700&family=Share+Tech+Mono&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg:    #05080f;
+      --bg2:   #080e1a;
+      --bg3:   #0c1528;
+      --blue:  #00d4ff;
+      --blue2: #0077ff;
+      --dim:   #1e4a60;
+      --body:  #b8d8f0;
+      --mono:  'Share Tech Mono', monospace;
+      --ui:    'Rajdhani', sans-serif;
+      --orb:   'Orbitron', sans-serif;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--body);
+      font-family: var(--ui);
+      font-size: 16px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    .grid-bg {
+      position: fixed; inset: 0; pointer-events: none; z-index: 0;
+      background-image:
+        linear-gradient(rgba(0,212,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,212,255,0.03) 1px, transparent 1px);
+      background-size: 44px 44px;
+    }
+
+    .radial-glow {
+      position: fixed; inset: 0; pointer-events: none; z-index: 0;
+      background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(0,80,160,0.15) 0%, transparent 70%);
+    }
+
+    header {
+      position: relative; z-index: 1;
+      background: var(--bg2);
+      border-bottom: 1px solid rgba(0,212,255,0.15);
+      padding: 24px 40px;
+      display: flex; align-items: center; gap: 16px;
+    }
+
+    .header-top-bar {
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--blue), var(--blue2), transparent);
+    }
+
+    .logo-hex svg { filter: drop-shadow(0 0 6px rgba(0,212,255,0.5)); }
+
+    .logo-text { flex: 1; }
+    .logo-main {
+      font-family: var(--ui); font-weight: 700; font-size: 22px;
+      letter-spacing: 3px; color: #ddeeff;
+    }
+    .logo-main span { color: var(--blue); text-shadow: 0 0 10px rgba(0,212,255,0.6); }
+    .logo-sub {
+      font-family: var(--mono); font-size: 9px; color: var(--dim);
+      letter-spacing: 3px; margin-top: 2px;
+    }
+
+    .mv3-badge {
+      font-family: var(--mono); font-size: 9px; letter-spacing: 1px;
+      color: var(--blue2); background: var(--bg3);
+      border: 1px solid rgba(0,119,255,0.3);
+      padding: 3px 8px; border-radius: 3px;
+    }
+
+    main {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto;
+      padding: 60px 40px 80px;
+    }
+
+    .page-title {
+      font-family: var(--orb); font-size: 32px; font-weight: 900;
+      color: #ddeeff; margin-bottom: 8px;
+      text-shadow: 0 0 20px rgba(0,212,255,0.15);
+    }
+    .page-title span { color: var(--blue); }
+
+    .last-updated {
+      font-family: var(--mono); font-size: 11px;
+      color: var(--dim); letter-spacing: 2px; margin-bottom: 48px;
+    }
+
+    .divider {
+      width: 100%; height: 1px;
+      background: linear-gradient(90deg, var(--blue2), transparent);
+      margin: 10px 0 40px;
+    }
+
+    .section { margin-bottom: 40px; }
+
+    h2 {
+      font-family: var(--mono); font-size: 11px; letter-spacing: 4px;
+      color: var(--blue); text-transform: uppercase;
+      margin-bottom: 14px;
+      padding-left: 12px;
+      border-left: 2px solid var(--blue);
+    }
+
+    p { color: var(--body); margin-bottom: 12px; font-size: 15px; }
+
+    ul {
+      list-style: none; padding: 0; margin-bottom: 12px;
+    }
+    ul li {
+      padding: 6px 0 6px 20px; font-size: 15px; color: var(--body);
+      position: relative;
+    }
+    ul li::before {
+      content: '◈'; position: absolute; left: 0;
+      color: var(--blue); opacity: 0.7; font-size: 12px;
+    }
+
+    .highlight-box {
+      background: var(--bg2);
+      border: 1px solid rgba(0,212,255,0.15);
+      border-left: 3px solid var(--blue);
+      border-radius: 4px;
+      padding: 16px 20px;
+      margin: 16px 0;
+      font-size: 15px;
+    }
+
+    .highlight-box strong { color: var(--blue); }
+
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-shadow: 0 0 8px rgba(0,212,255,0.5); }
+
+    footer {
+      position: relative; z-index: 1;
+      text-align: center;
+      padding: 24px 40px;
+      border-top: 1px solid rgba(0,212,255,0.08);
+      background: #080a14;
+    }
+    .footer-brand {
+      font-family: var(--mono); font-size: 10px;
+      letter-spacing: 3px; color: var(--dim);
+    }
+    .footer-brand span { color: rgba(0,212,255,0.5); }
+  </style>
+</head>
+<body>
+<div class="grid-bg"></div>
+<div class="radial-glow"></div>
+
+<header>
+  <div class="header-top-bar"></div>
+  <div class="logo-hex">
+    <svg viewBox="0 0 36 36" fill="none" width="36" height="36">
+      <polygon points="18,2 33,10.5 33,25.5 18,34 3,25.5 3,10.5" fill="rgba(0,119,255,0.12)" stroke="#00d4ff" stroke-width="1.5"/>
+      <polygon points="18,8 27,13.5 27,22.5 18,28 9,22.5 9,13.5" fill="none" stroke="#0077ff" stroke-width="0.7" opacity="0.6"/>
+      <text x="10" y="23" font-family="Arial" font-weight="bold" font-size="11" fill="#00d4ff">MG</text>
+    </svg>
+  </div>
+  <div class="logo-text">
+    <div class="logo-main">CYBER<span>BLOCK</span></div>
+    <div class="logo-sub">AD ELIMINATOR v1.0 - BY MG</div>
+  </div>
+  <div class="mv3-badge">MV3</div>
+</header>
+
+<main>
+  <div class="page-title">PRIVACY<span> POLICY</span></div>
+  <div class="last-updated">// LAST UPDATED: APRIL 2026 //</div>
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2>01 - Overview</h2>
+    <div class="highlight-box">
+      <strong>CyberBlock - Ad Eliminator</strong> is built on a single principle: <strong>zero data collection</strong>. We do not collect, transmit, store, or share any personal information about you or your browsing activity.
+    </div>
+    <p>This Privacy Policy explains how CyberBlock - Ad Eliminator ("the extension", "we") handles your data when you install and use it in Google Chrome.</p>
+  </div>
+
+  <div class="section">
+    <h2>02 - Data We Do NOT Collect</h2>
+    <p>CyberBlock never collects or transmits any of the following:</p>
+    <ul>
+      <li>Browsing history or visited URLs</li>
+      <li>Personally identifiable information (name, email, IP address)</li>
+      <li>Login credentials or session tokens</li>
+      <li>Financial or payment information</li>
+      <li>Device identifiers or fingerprint data</li>
+      <li>Cookies or local storage from websites you visit</li>
+      <li>Search queries or form inputs</li>
+      <li>Analytics, telemetry, or crash reports</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>03 - How the Extension Works</h2>
+    <p>CyberBlock operates entirely on your local device. Here is what it does:</p>
+    <ul>
+      <li>Intercepts and blocks network requests matching known ad, tracker, malware, and popup domains using Chrome's built-in <strong>declarativeNetRequest</strong> API</li>
+      <li>Injects content scripts on web pages solely to remove ad elements from the DOM</li>
+      <li>Periodically fetches updated blocking rule lists from GitHub (raw JSON files) to keep protection current - only the rule files are downloaded, no user data is sent</li>
+      <li>Stores your on/off toggle preferences locally using <strong>chrome.storage.local</strong> - this data never leaves your device</li>
+      <li>Counts blocked ads locally for display in the popup - this counter is stored only on your device</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>04 - Permissions Explained</h2>
+    <ul>
+      <li><strong>declarativeNetRequest</strong> - blocks ads and trackers at the network level without reading page content</li>
+      <li><strong>storage</strong> - saves your settings and blocked-ad counters locally on your device only</li>
+      <li><strong>alarms</strong> - schedules periodic rule update checks (every 6 hours)</li>
+      <li><strong>tabs</strong> - reads the current tab's URL to show per-site blocking status in the popup</li>
+      <li><strong>host permissions (*://*/*)</strong> - required to apply blocking rules across all websites</li>
+    </ul>
+    <p>No permission is used to read, record, or transmit your browsing data.</p>
+  </div>
+
+  <div class="section">
+    <h2>05 - Rule Updates (GitHub)</h2>
+    <p>CyberBlock fetches updated ad-blocking rule lists from:</p>
+    <div class="highlight-box">
+      <a href="https://github.com/mgupta646/cyberblock-rules" target="_blank">https://github.com/mgupta646/cyberblock-rules</a>
+    </div>
+    <p>These requests download plain JSON rule files only. No user data, identifiers, or browsing information is included in these requests. GitHub may log standard server-side access logs (IP address, timestamp) as part of normal CDN operation - this is outside our control and subject to <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank">GitHub's Privacy Policy</a>.</p>
+  </div>
+
+  <div class="section">
+    <h2>06 - Third-Party Services</h2>
+    <p>CyberBlock does not integrate with any third-party analytics, advertising, or tracking services. The extension has no backend server, no user accounts, and no sign-in requirement.</p>
+  </div>
+
+  <div class="section">
+    <h2>07 - Children's Privacy</h2>
+    <p>CyberBlock does not knowingly collect any information from anyone, including children under 13. Since no data is collected at all, the extension is safe for users of all ages.</p>
+  </div>
+
+  <div class="section">
+    <h2>08 - Changes to This Policy</h2>
+    <p>If this Privacy Policy is updated, the new version will be published at this URL with a revised "Last Updated" date. Continued use of the extension after any changes constitutes acceptance of the updated policy.</p>
+  </div>
+
+  <div class="section">
+    <h2>09 - Contact</h2>
+    <p>For questions or concerns about this Privacy Policy, please open an issue on our GitHub repository:</p>
+    <div class="highlight-box">
+      <a href="https://github.com/mgupta646/cyberblock-rules/issues" target="_blank">https://github.com/mgupta646/cyberblock-rules/issues</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-brand">CYBERBLOCK - AD ELIMINATOR &nbsp;·&nbsp; <span>by MG</span> &nbsp;·&nbsp; ALL RIGHTS RESERVED</div>
+</footer>
+
+</body>
+</html>
