@@ -1,0 +1,14 @@
+[
+  { "id": 301, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/google-analytics.js" } }, "condition": { "urlFilter": "||google-analytics.com/analytics.js", "resourceTypes": ["script"] } },
+  { "id": 302, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/google-analytics.js" } }, "condition": { "urlFilter": "||google-analytics.com/ga.js", "resourceTypes": ["script"] } },
+  { "id": 303, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/google-analytics.js" } }, "condition": { "urlFilter": "||google-analytics.com/gtag/js", "resourceTypes": ["script"] } },
+  { "id": 310, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/gtm.js" } }, "condition": { "urlFilter": "||googletagmanager.com/gtm.js", "resourceTypes": ["script"] } },
+  { "id": 311, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/gtm.js" } }, "condition": { "urlFilter": "||googletagmanager.com/gtag/js", "resourceTypes": ["script"] } },
+  { "id": 320, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/adsbygoogle.js" } }, "condition": { "urlFilter": "||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", "resourceTypes": ["script"] } },
+  { "id": 330, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/google-ima.js" } }, "condition": { "urlFilter": "||imasdk.googleapis.com/js/sdkloader/ima3.js", "resourceTypes": ["script"] } },
+  { "id": 331, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/google-ima.js" } }, "condition": { "urlFilter": "||imasdk.googleapis.com/js/sdkloader/ima3_debug.js", "resourceTypes": ["script"] } },
+  { "id": 340, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/comscore.js" } }, "condition": { "urlFilter": "||sb.scorecardresearch.com/beacon.js", "resourceTypes": ["script"] } },
+  { "id": 341, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/comscore.js" } }, "condition": { "urlFilter": "||sb.scorecardresearch.com/cs.js", "resourceTypes": ["script"] } },
+  { "id": 350, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/noop.js" } }, "condition": { "urlFilter": "||googletagservices.com/tag/js/gpt.js", "resourceTypes": ["script"] } },
+  { "id": 351, "priority": 2, "action": { "type": "redirect", "redirect": { "extensionPath": "/stubs/noop.js" } }, "condition": { "urlFilter": "||securepubads.g.doubleclick.net/tag/js/gpt.js", "resourceTypes": ["script"] } }
+]
