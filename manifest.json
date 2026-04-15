@@ -1,0 +1,10 @@
+{
+  "version": "2026.04.15",
+  "rules": {
+    "ad_rules": "https://raw.githubusercontent.com/mgupta646/cyberblock-rules/main/ad_rules.json",
+    "tracker_rules": "https://raw.githubusercontent.com/mgupta646/cyberblock-rules/main/tracker_rules.json",
+    "malware_rules": "https://raw.githubusercontent.com/mgupta646/cyberblock-rules/main/malware_rules.json",
+    "redirect_rules": "https://raw.githubusercontent.com/mgupta646/cyberblock-rules/main/redirect_rules.json",
+    "popup_rules": "https://raw.githubusercontent.com/mgupta646/cyberblock-rules/main/popup_rules.json"
+  }
+}
